@@ -1,0 +1,17 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.sharma.prac</groupId>
+  <artifactId>school</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>school</name>
+  <description>school</description>
+  <properties>
+  	<myproject.version>0.0.1-SNAPSHOT</myproject.version>
+  </properties>
+  <modules>
+  	<module>school-domain</module>
+  	<module>school-business</module>
+  	<module>school-persist</module>
+  </modules>
+</project>
